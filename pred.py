@@ -15,4 +15,4 @@ text_to_predict = pd.DataFrame({
 predictions, output_directory = model.predict(text_to_predict)
 
 print(predictions)
-st.write(f"{predictions}")
+st.write(f"{list(predictions["class_predictions"])}")
