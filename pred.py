@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 import pickle
 
-model = pickle.load(open("model_ag.pkl", "rb"))
+model = pickle.load(open("model_agnew.pkl", "rb"))
 
 text_to_predict = pd.DataFrame({
   "title": [
