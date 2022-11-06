@@ -1,0 +1,3 @@
+git+https://github.com/ludwig-ai/ludwig.git
+streamlit
+pandas
